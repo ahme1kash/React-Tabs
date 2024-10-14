@@ -10,7 +10,8 @@
     align-items: center;
     justify-content: center;
     border-radius: 1rem 1rem 0 0;
-    background-color: hsla(219, 73%, 72%, 0.922);
+    background-color: hsla(233, 77%, 57%, 0.922);
+    max-width: 100rem;
 }
 
 .tabs-container ul li {
@@ -18,11 +19,11 @@
     padding: 2rem;
     margin: 0.5rem;
     /* height: 2rem; */
-    width: 25rem;
+    width: 26rem;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 
-    border-radius: 2rem 0 2rem 0;
+    border-radius: 5rem 0 5rem 0;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -45,8 +46,7 @@
 }
 
 .tabs-container .tabs-content {
-    width: 100%;
-    overflow: hidden;
+    width: 96%;
 }
 
 .tabs-container .tabs-content .description {
